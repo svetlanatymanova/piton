@@ -403,7 +403,8 @@ main {
           justify-content: center;
 }
 
-.section-item__bg {
+.section-item__bg,
+.section-item .section-item__head picture {
   position: absolute;
   top: 55%;
   left: 50%;
