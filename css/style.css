@@ -403,8 +403,9 @@ main {
           justify-content: center;
 }
 
-.section-item__bg,
-.section-item .section-item__head picture {
+.section-item__bg {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -415,6 +416,15 @@ main {
   max-width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.section-item__bg img,
+.section-item__bg picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .section-item__row {
